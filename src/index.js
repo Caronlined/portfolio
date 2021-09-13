@@ -5,32 +5,8 @@ import ReactDOM from 'react-dom';
 // Create Import File
 import './index.scss';
 
-// Common Layout
-// import Layout from "./component/common/App";
-
-
-// Home layout
-import Demo from './page-demo/Demo';
-import MainDemo from './home/MainDemo';
-import Startup from './home/Startup';
-import Paralax from './home/Paralax';
-import DigitalAgency from './home/DigitalAgency';
-import CreativeAgency from './home/CreativeAgency';
-import PersonalPortfolio from './home/PersonalPortfolio';
-import Business from './home/Business';
-import StudioAgency from './home/StudioAgency';
-import PortfolioLanding from './home/PortfolioLanding';
-import CreativeLanding from './home/CreativeLanding';
-import HomeParticles from './home/HomeParticles';
-import CreativePortfolio from './home/CreativePortfolio';
-import DesignerPortfolio from './home/DesignerPortfolio';
-import InteriorLanding from './home/Interior';
-import CorporateBusiness from './home/CorporateBusiness';
-
 // Dark Home Layout
-import DarkMainDemo from './dark/MainDemo';
 import DarkPortfolioLanding from './dark/PortfolioLanding';
-import HomePortfolio from './dark/HomePortfolio';
 
 // Element Layout
 import Service from "./elements/Service";

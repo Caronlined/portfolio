@@ -70,7 +70,7 @@
     }
 
     ul.tab-style--1 {
-        border-color: #2d3548;;
+        border-color: #777f94;;
     }
     ul.tab-style--1 li::before {
         background: rgba(198, 201, 216, 0.75);
@@ -101,7 +101,7 @@
 
     .contact-form--1 input, .contact-form--1 textarea ,
     .header-area.color-black a.rn-btn {
-        border: 2px solid rgba(255,255,255,0.2);
+        border: 2px solid #777f94;
     }
     .header-area.color-black a.rn-btn:hover{
         border-color: var(--color-primary);
@@ -132,7 +132,7 @@
     }
     .contact-form--1 input,
     .contact-form--1 textarea {
-        color: rgba(198, 201, 216, 0.75)
+        color: #777f94;
     }
 
     .personal-portfolio-slider::before {

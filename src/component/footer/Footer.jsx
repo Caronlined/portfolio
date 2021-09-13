@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaInstagram , FaLinkedinIn} from "react-icons/fa";
 const logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
 class Footer extends Component{
@@ -45,7 +43,7 @@ class Footer extends Component{
                                                 {logoUrl}
                                             </Link>
                                         </div>
-                                        <p>Copyright © 2021 <Link to="/">Imroz</Link> React Template. Built with love in Bangladesh All rights reserved.</p>
+                                        <p>Copyright © 2021 <Link to="/">Caronline</Link></p>
                                     </div>
                                 </div>
                                 
@@ -56,8 +54,6 @@ class Footer extends Component{
                                         <ul className="ft-link">
                                             <li><Link to="/portfolio">Portfolio</Link></li>
                                             <li><Link to="/about">About</Link></li>
-                                            <li><Link to="/blog">Our Blog</Link></li>
-                                            <li><Link to="/team">Our Team</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </div>
@@ -71,8 +67,6 @@ class Footer extends Component{
                                         <ul className="ft-link">
                                             <li><Link to="/portfolio">Portfolio</Link></li>
                                             <li><Link to="/about">About</Link></li>
-                                            <li><Link to="/blog">Our Blog</Link></li>
-                                            <li><Link to="/team">Our Team</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </div>

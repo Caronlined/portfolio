@@ -5,10 +5,10 @@ import { ProgressBar } from 'react-bootstrap';
 class TabsTwo extends Component{
     render(){
         let 
-        tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education";
+        tab1 = "Experience",
+        tab2 = "Education",
+        tab3 = "Main skills",
+        tab4 = "Certifications";
         const { tabStyle } = this.props
         return(
             <div>
@@ -26,30 +26,76 @@ class TabsTwo extends Component{
                                     </TabList>
 
                                     <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                                <li>
+                                                   <a>Project Manager Team Leader<span> - Lenovo</span></a> 2021 - Current
+                                               </li>
+                                               <li>
+                                                   <a>Ssr. Web Designer<span> - Lenovo</span></a> 2018 - 2021
+                                               </li>
+                                               <li>
+                                                   <a>Web Multimedia Designer<span> - Next Publicidad</span></a> 2018
+                                               </li>
+                                               <li>
+                                                   <a>Graphic Web Designer<span> - Ukelele Growth Marketing</span></a> 2017 - 2018
+                                               </li>
+                                               <li>
+                                                   <a>Multimedia Designer<span> - PMovil </span></a> 2015 - 2017
+                                               </li>
+                                           </ul>
+                                       </div>
+                                    </TabPanel>
+
+                                    <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                   <a>Technical Multimedia Design<span> - Escuela Da Vinci</span></a> 2012 - 2017
+                                               </li>
+                                               <li>
+                                                   <a>English Language and Literature<span> - Cambridge and AACI Diplomas</span></a> 2000 - 2011
+                                               </li>
+                                               <li>
+                                                   <a>French Language and Literature<span> - Alliance Française Diplomas</span></a> 2000 - 2011
+                                               </li>
+                                                <li>
+                                                   <a>High School with Communications Study<span> - Instituto Euskal Echea</span></a> 2007 - 2011
+                                               </li>
+                                           </ul>
+                                       </div>
+                                    </TabPanel>
+
+                                    <TabPanel>
                                         <div className="single-tab-content">
                                             <div className={`rn-progress-bar progress-bar--1 mt_dec--10`}>
                                                 <div className="single-progress">
-                                                    <h6 className="title">Designing</h6>
-                                                    <ProgressBar now={95} />
-                                                    <span className="label">95%</span>
+                                                    <h6 className="title">Web Designing</h6>
+                                                    <ProgressBar now={90} />
+                                                    <span className="label">90%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Managment</h6>
-                                                    <ProgressBar now={85} />
-                                                    <span className="label">85%</span>
+                                                    <h6 className="title">Email Marketing</h6>
+                                                    <ProgressBar now={80} />
+                                                    <span className="label">80%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Marketing</h6>
+                                                    <h6 className="title">User Interface Design</h6>
                                                     <ProgressBar now={75} />
                                                     <span className="label">75%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Development</h6>
-                                                    <ProgressBar now={80} />
-                                                    <span className="label">80%</span>
+                                                    <h6 className="title">Multimedia</h6>
+                                                    <ProgressBar now={60} />
+                                                    <span className="label">60%</span>
+                                                </div>
+                                                <div className="single-progress">
+                                                    <h6 className="title">Front-end Development</h6>
+                                                    <ProgressBar now={50} />
+                                                    <span className="label">50%</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -59,57 +105,21 @@ class TabsTwo extends Component{
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
-                                               <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                <li>
+                                                   <a href="/assets/images/diploma-award.pdf" target="_blank">Team Excellence Award<span> - Lenovo</span></a> 2021
+                                               </li>
+                                                <li>
+                                                   <a href="https://crehana.com/diplomas/f6002a67" target="_blank">Diploma in Advertising Photomontage<span> - Crehana</span></a> 2021
+                                               </li>
+                                               
+                                                <li>
+                                                   <a>Diploma Award<span> - Lenovo</span></a> 2019
                                                </li>
                                                <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
+                                                   <a>Diploma in Community Management<span> - Capacitarte</span></a> 2018
                                                </li>
                                                <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-
-
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a href="https://www.coderhouse.com/certificados/5afae1023af1b7000438afb9" target="_blank">Diploma in UX Design<span> - Coderhouse</span></a> 2018
                                                </li>
                                            </ul>
                                        </div>

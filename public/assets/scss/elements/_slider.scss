@@ -297,8 +297,8 @@ Slider Default Style
         &.slider-paralax{
             @media #{$laptop-device} {
                 height: auto;
-                padding-top: 150px;
-                padding-bottom: 150px;
+                padding-top: 170px;
+                padding-bottom: 210px;
             }
         }
     }
@@ -306,8 +306,8 @@ Slider Default Style
     &.slider-style-3 {
         .inner {
             > span {
-                color: $heading-color;
-                font-size: 15px;
+                color: #fff !important;
+                font-size: 16px;
                 text-transform: uppercase;
                 letter-spacing: 4px;
                 display: block;
@@ -869,23 +869,23 @@ For Slider Service
    
     @media #{$laptop-device} {
         height: auto;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 170px;
+        padding-bottom: 210px;
     }
     @media #{$lg-layout} {
         height: auto;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 170px;
+        padding-bottom:210px;
     }
     @media #{$md-layout} {
         height: auto;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 170px;
+        padding-bottom: 210px;
     }
     @media #{$sm-layout} {
         height: auto;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 170px;
+        padding-bottom: 210px;
     }
 }
 
@@ -1058,7 +1058,7 @@ Custom Animation
 
 .bg_image--25 {
     @media #{$sm-layout} {
-        background-position: 70% center;
+        background-position: 59% center !important;
         background-attachment: scroll;
     }
 }

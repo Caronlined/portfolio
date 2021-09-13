@@ -79,13 +79,6 @@ class HomePortfolio extends Component {
                         <div className="row">
                             <PortfolioMasonry item="8" column="col-lg-3 col-md-6 col-sm-6 col-12 portfolio-tilthover" />
                         </div>
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="view-more-btn mt--60 text-center">
-                                    <a className="btn-default" href="/portfolio"><span>View More Project</span></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 {/* End portfolio Area  */}
