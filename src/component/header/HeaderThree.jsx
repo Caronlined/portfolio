@@ -49,7 +49,7 @@ class HeaderThree extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo_ca.png" alt="Caronline Logo" />;
+            logoUrl = <img src="https://caronlined.github.io/assets/images/logo/logo_ca.png" alt="Caronline Logo" />;
         }
         
         return(

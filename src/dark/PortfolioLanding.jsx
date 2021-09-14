@@ -69,7 +69,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/me-photo.jpg" alt="About Me image"/>
+                                        <img className="w-100" src="https://caronlined.github.io/assets/images/about/me-photo.jpg" alt="About Me image"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -118,7 +118,7 @@ const PortfolioLanding = () => {
             {/* Start Contact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area pb--120 bg_color--8">
-                    <ContactThree contactImages="/assets/images/about/contact-me.png" contactTitle="Hire Me." />
+                    <ContactThree contactImages="https://caronlined.github.io/assets/images/about/contact-me.png" contactTitle="Hire Me." />
                 </div>
             </div>
             {/* End Contact Area */}
