@@ -5,7 +5,7 @@ const Portfolio_image2 = <img src="assets/images/portfolio/portfolio-2.jpg" alt=
 const Portfolio_image3 = <img src="./assets/images/portfolio/portfolio-3.jpg" alt="Recent works images" />;
 const Portfolio_image4 = <img src="assets/images/portfolio/portfolio-4.jpg" alt="Recent works images" />;
 const Portfolio_image5 = <img src="assets/images/portfolio/portfolio-5.jpg" alt="Recent works images" />;
-const Portfolio_image6 = <img src="ssets/images/portfolio/portfolio-6.jpg" alt="Recent works images" />;
+const Portfolio_image6 = <img src="assets/images/portfolio/portfolio-6.jpg" alt="Recent works images" />;
 const Portfolio_image7 = <img src="assets/images/portfolio/portfolio-7.jpg" alt="Recent works images" />;
 const Portfolio_image8 = <img src="assets/images/portfolio/portfolio-8.jpg" alt="Recent works images" />;
 const Portfolio_image9 = <img src="assets/images/portfolio/portfolio-9.jpg" alt="Recent works images" />;
