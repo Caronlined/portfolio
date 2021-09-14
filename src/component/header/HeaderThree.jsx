@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaInstagram , FaLinkedinIn } from "react-icons/fa";
+import {FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
@@ -62,11 +62,10 @@ class HeaderThree extends Component{
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','about','portfolio']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#about">About Me</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
                             </Scrollspy>
                         </nav>
                     </div>
@@ -74,7 +73,7 @@ class HeaderThree extends Component{
                         <div className="social-share-inner d-none d-sm-block">
                             <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a href={`${val.link}`} target='_blank'>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
