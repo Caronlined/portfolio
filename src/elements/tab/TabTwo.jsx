@@ -51,7 +51,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>Technical Multimedia Design<span> - Escuela Da Vinci</span></a> 2012 - 2017
+                                                   <a>Technical Multimedia Design<span> - Da Vinci Multimedia Art School</span></a> 2012 - 2017
                                                </li>
                                                <li>
                                                    <a>English Language and Literature<span> - Cambridge and AACI Diplomas</span></a> 2000 - 2011
@@ -106,7 +106,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                 <li>
-                                                   <a href="/assets/images/diploma-award.pdf" target="_blank">Team Excellence Award<span> - Lenovo</span></a> 2021
+                                                   <a href="./assets/images/diploma-award.pdf" target="_blank">Team Excellence Award<span> - Lenovo</span></a> 2021
                                                </li>
                                                 <li>
                                                    <a href="https://crehana.com/diplomas/f6002a67" target="_blank">Diploma in Advertising Photomontage<span> - Crehana</span></a> 2021
