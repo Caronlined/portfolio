@@ -6,7 +6,6 @@ import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
-import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import BlogContent from "../elements/blog/BlogContent";
 
@@ -16,7 +15,7 @@ const SlideList = [
         category: 'Welcome to my World',
         description: '',
         buttonText: 'Download CV',
-        buttonLink: 'https://apple.com'
+        buttonLink: './assets/images/resume-cdato-2021.pdf'
     }
 ]
 const PortfolioLanding = () => {
@@ -101,7 +100,6 @@ const PortfolioLanding = () => {
                                     <div className="section-title text-center mb--30 mb_sm--0">
                                         <span className="subtitle">Some Of My </span>
                                         <h2 className="title">Recent Works</h2>
-                                        <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
                             </div>
@@ -113,15 +111,6 @@ const PortfolioLanding = () => {
                 </div>
             </div>
             {/* End Portfolio Area */}
-
-
-            {/* Start Contact Area */}
-            <div id="contact" className="fix">
-                <div className="rn-contact-area pb--120 bg_color--8">
-                    <ContactThree contactImages="assets/images/about/contact-me.png" contactTitle="Hire Me." />
-                </div>
-            </div>
-            {/* End Contact Area */}
 
             <FooterTwo />
             {/* Start Back To Top */}
