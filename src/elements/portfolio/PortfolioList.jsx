@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-const Portfolio_image = <img src="assets/images/portfolio/portfolio-1.jpg" alt="Recent works images" />;
-const Portfolio_image2 = <img src="assets/images/portfolio/portfolio-2.jpg" alt="Recent works images" />;
-const Portfolio_image3 = <img src="assets/images/portfolio/portfolio-3.jpg" alt="Recent works images" />;
-const Portfolio_image4 = <img src="assets/images/portfolio/portfolio-4.jpg" alt="Recent works images" />;
-const Portfolio_image5 = <img src="assets/images/portfolio/portfolio-5.jpg" alt="Recent works images" />;
-const Portfolio_image6 = <img src="assets/images/portfolio/portfolio-6.jpg" alt="Recent works images" />;
-const Portfolio_image7 = <img src="assets/images/portfolio/portfolio-7.jpg" alt="Recent works images" />;
-const Portfolio_image8 = <img src="assets/images/portfolio/portfolio-8.jpg" alt="Recent works images" />;
-const Portfolio_image9 = <img src="assets/images/portfolio/portfolio-9.jpg" alt="Recent works images" />;
+const Portfolio_image = <img src="assets/images/portfolio/portfolio-1.jpg" alt="Email marketing project" />;
+const Portfolio_image2 = <img src="assets/images/portfolio/portfolio-2.jpg" alt="Landing page design" />;
+const Portfolio_image3 = <img src="assets/images/portfolio/portfolio-3.jpg" alt="Graphics designs" />;
+const Portfolio_image4 = <img src="assets/images/portfolio/portfolio-4.jpg" alt="Email marketing templates" />;
+const Portfolio_image5 = <img src="assets/images/portfolio/portfolio-5.jpg" alt="Landing page design" />;
+const Portfolio_image6 = <img src="assets/images/portfolio/portfolio-6.jpg" alt="Landing page design" />;
+const Portfolio_image7 = <img src="assets/images/portfolio/portfolio-7.jpg" alt="Landing page design" />;
+const Portfolio_image8 = <img src="assets/images/portfolio/portfolio-8.jpg" alt="Landing page design" />;
+const Portfolio_image9 = <img src="assets/images/portfolio/portfolio-9.jpg" alt="Landing page design" />;
 
 const PortfolioListContent = [
     {
